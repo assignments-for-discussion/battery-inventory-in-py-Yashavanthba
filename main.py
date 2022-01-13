@@ -8,7 +8,7 @@ for c in cycles:
        my_dict["mediumCount"]+= 1
    elif c >= 920:
        my_dict["highCount"] += 1
-  return my_dict
+return my_dict
 
 def test_bucketing_by_number_of_cycles():
   print("Counting batteries by usage cycles...\n");
