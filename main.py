@@ -6,7 +6,7 @@ for c in cycles:
        my_dict["lowCount"] += 1
    elif 400 C ≤ 919:
        my_dict["mediumCount"]+= 1
-   elif c>920:
+   elif c >= 920:
        my_dict["highCount"] += 1
   return my_dict
 
